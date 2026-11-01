@@ -5,19 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "dev:api": "node server/index.js",
     "build": "vite build",
     "preview": "vite preview",
     "format": "oxfmt"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.3",
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "mysql2": "^3.24.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^8.3.0"
